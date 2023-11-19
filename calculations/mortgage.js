@@ -1,4 +1,5 @@
 var mortgageAmount;
+//15, 20, or 30
 var loanTerm;
 var interestRate;
 

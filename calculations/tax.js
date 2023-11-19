@@ -1,9 +1,11 @@
 var annualIncome;
+//Single or Married(filing jointly)
 var filingStatus;
 taxCalc(income,stats)
 {
 var tax = 0;
 while (income > 0){
+//to be continued
 income = income - 1
 }
 return tax;
