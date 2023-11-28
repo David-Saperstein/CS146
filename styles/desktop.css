@@ -31,10 +31,18 @@ nav > a:hover{
 
 main{
     margin-top: 100px;
+    margin-left: 10px;
 }
 
 h1{
-    font-family: "Major Mono Display"
+    font-family: "Major Mono Display";
+    text-align: center;
+    border: 4px dashed black;
+    width: 400px;
+    padding: 5px;
+    transform: rotate(10deg);
+    margin-top: 130px;
+    margin-bottom: 50px;
 }
 
 .tiny{
