@@ -40,3 +40,7 @@ h1{
 .tiny{
     font-size: 12px;
 }
+
+.big{
+    font-size: 18px;/*changed*/
+}
