@@ -20,16 +20,24 @@
     </nav>
 
     <main>
-        <h1>Tax Calculator</h1>
+        <div class="title-container">
+            <h1>Tax Calculator</h1>
+        </div>
         <h3>Enter your tax information below</h3>
         <form>
-            <label for="stat">Tax Filing Status:</label><br>
-            <input type="text" id="stat" name="stat"><br>
-            <label for="inc">Income:</label><br>
-            <input type="text" id="inc" name="inc"><br>
-            <label for="loc">Location:</label><br>
-            <input type="Location" id="loc" name="loc"><br>
-            <input type="submit" value="Submit">
+            <div class="input-wrapper">
+                <label for="stat">Tax Filing Status:</label>
+                <input type="text" id="stat" name="stat">
+            </div>
+            <div class="input-wrapper">
+                <label for="inc">Income:</label>
+                <input type="text" id="inc" name="inc">
+            </div>
+            <div class="input-wrapper">
+                <label for="loc">Location:</label>
+                <input type="Location" id="loc" name="loc">
+            </div>
+            <div class="submit"><input type="submit" value="Submit"></div>
         </form>
 
         <p class="tiny">*This is a basic tax caculator. Calculations are based off the assumptions that the users has no dependants or disabilities that would effect their taxes</p>

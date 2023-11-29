@@ -21,15 +21,24 @@
     </nav>
 
     <main>
+        <div class="title-container">
+            <h1>Mortgage Calculator</h1>
+        </div>
         <h3>Enter your mortgage information below</h3>
         <form>
-            <label for="inc">Income:</label><br>
-            <input type="text" id="inc" name="inc"><br>
-            <label for="lo">Loan Term:</label><br>
-            <input type="Location" id="lo" name="lo"><br>
-            <label for="ir">Interest Rate:</label><br>
-            <input type="text" id="ir" name="ir"><br><br>
-            <input type="submit" value="Submit">
+            <div class="input-wrapper">
+                <label for="inc">Income:</label>
+                <input type="text" id="inc" name="inc">
+            </div>
+            <div class="input-wrapper">
+                <label for="lo">Loan Term:</label>
+                <input type="Location" id="lo" name="lo">
+            </div>
+            <div class="input-wrapper">
+                <label for="ir">Interest Rate:</label>
+                <input type="text" id="ir" name="ir">
+            </div>
+            <div class="submit"><input type="submit" value="Submit"></div>
           </form>
         <p class="tiny">*This is a basic mortgage calculator given that the loan term is fixed</p>
     </main>

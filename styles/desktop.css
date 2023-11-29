@@ -63,3 +63,24 @@ h1{
 .big{
     font-size: 18px;/*changed*/
 }
+
+input {
+    padding: 1em 1em;
+}
+form{
+    background-color: rgba(255,255,255,0.1);
+    width: fit-content;
+    padding: 1em 3em;
+    margin: 1em 0
+}
+
+.input-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 1em 0
+}
+.submit{
+    display: flex;
+    justify-content: flex-end;
+}

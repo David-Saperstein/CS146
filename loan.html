@@ -21,19 +21,28 @@
     </nav>
 
     <main>
-    <h3>Enter your loan information below</h3>
-    <form>
+        <div class="title-container">
+            <h1>Loan Estimate</h1>
+        </div>
+        <h3>Enter your loan information below</h3>
+        <form>
 
-        <label for="loan-amount">Loan Amount:</label>
-        <input type="number" id="loan-amount" name="loan-amount" required><br><br>
-        <label for="interest-rate">Interest Rate (in %):</label>
-        <input type="number" id="interest-rate" name="interest-rate" required><br><br>
-        <label for="num-months">Number of Months:</label>
-        <input type="number" id="num-months" name="num-months" required><br><br>
-        <input type="submit" value="Calculate">
-        
-      </form>
-        <p class = "tiny">*This is only a basic calculations on how much the user would need to pay back given the payments are monthly</p>
+            <div class="input-wrapper">
+                <label for="loan-amount">Loan Amount:</label>
+                <input type="number" id="loan-amount" name="loan-amount" required>
+            </div>
+            <div class="input-wrapper">
+                <label for="interest-rate">Interest Rate (in %):</label>
+                <input type="number" id="interest-rate" name="interest-rate" required>
+            </div>
+            <div class="input-wrapper">
+                <label for="num-months">Number of Months:</label>
+                <input type="number" id="num-months" name="num-months" required>
+            </div>
+            <div class="submit"><input type="submit" value="Calculate"></div>
+            
+        </form>
+            <p class = "tiny">*This is only a basic calculations on how much the user would need to pay back given the payments are monthly</p>
     </main>
 
 
