@@ -12,13 +12,14 @@ body {
 }
 
 nav {
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255,255,255,0.9);
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
+    z-index: 2;
 }
 
 nav > a{
@@ -36,7 +37,12 @@ nav > a:hover{
 
 main{
     margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+
+.title-container{
+    margin: auto;
+    width: 400px
 }
 
 h1{
@@ -45,9 +51,9 @@ h1{
     border: 4px dashed black;
     width: 400px;
     padding: 5px;
-    transform: rotate(10deg);
     margin-top: 130px;
     margin-bottom: 50px;
+    margin-right: auto;
 }
 
 .tiny{
