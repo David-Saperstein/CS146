@@ -6,6 +6,11 @@ body {
     font-family: "Albert Sans";
 }
 
+.icon{
+    width: 300px;
+    height: 200px;
+}
+
 nav {
     background-color: rgba(255,255,255,0.75);
     display: flex;
