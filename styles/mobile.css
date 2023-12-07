@@ -2,7 +2,7 @@
     margin: 0;
 }
 body {
-    background-color: green;
+    background-color: orange;
     font-family: "Albert Sans";
 }
 .icon{
@@ -36,19 +36,21 @@ main{
     margin-top: 50px;/*changed*/
 }
 
-h1 {
-    font-size: small;
-    text-transform: uppercase;
-    font-family: 'Gambetta', serif;
-    letter-spacing: 1px;
-    transition: 700ms ease;
-    font-variation-settings: "wght" 311;
-    margin-bottom: 0.8rem;
-    color: Black;
-    outline: none;
+.title-container{
+    margin: auto;
+    width: 400px
+}
+
+  h1{
+    font-family: "Major Mono Display";
     text-align: center;
-    padding: 10px;
-  }
+    border: 4px dashed black;
+    width: 400px;
+    padding: 5px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    margin-right: auto;
+}
   
   h1:hover {
     font-variation-settings: "wght" 582; 
@@ -56,7 +58,7 @@ h1 {
   }
 
 .tiny{
-    font-size: 5px;/*changed*/
+    font-size: 6px;/*changed*/
 }
 
 .big{
@@ -66,4 +68,27 @@ h1 {
 .results{
     font-size: 8px;
     text-align: center;
+}
+
+input {
+    padding: 1em 1em;
+    border-radius: 0.5em;
+}
+form{
+    background-color: rgba(255,255,255,0.1);
+    width: fit-content;
+    padding: 1em 3em;
+    margin: 1em 0;
+    border-radius: 1em;
+}
+
+.input-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 1em 0
+}
+.submit{
+    display: flex;
+    justify-content: flex-end;
 }

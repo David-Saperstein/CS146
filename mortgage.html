@@ -27,8 +27,12 @@
         <h3>Enter your mortgage information below</h3>
         <form>
             <div class="input-wrapper">
-                <label for="inc">Income:</label>
-                <input type="text" id="inc" name="inc">
+                <label for="amount">Mortgage Amount:</label>
+                <select name="mortgageAmount" id="amount">
+                    <option value="15">$15,000</option>
+                    <option value="20">$20,000</option>
+                    <option value="30">$30,000</option>
+                </select>
             </div>
             <div class="input-wrapper">
                 <label for="lo">Loan Term:</label>
@@ -43,6 +47,7 @@
           <div>
             <h2 class = "results">Calculation: </h2>
         </div>
+
         <p class="tiny">*This is a basic mortgage calculator given that the loan term is fixed</p>
     </main>
 

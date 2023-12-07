@@ -27,7 +27,10 @@
         <form>
             <div class="input-wrapper">
                 <label for="stat">Tax Filing Status:</label>
-                <input type="text" id="stat" name="stat">
+                <select name="filing status" id="status">
+                    <option value="Single">Single</option>
+                    <option value="Married">Married (filing jointly)</option>
+                </select>
             </div>
             <div class="input-wrapper">
                 <label for="inc">Income:</label>
@@ -42,7 +45,7 @@
         <div>
             <h2 class = "results">Calculation: </h2>
         </div>
-        
+
         <p class="tiny">*This is a basic tax caculator. Calculations are based off the assumptions that the users has no dependants or disabilities that would effect their taxes</p>
     </main>
       
