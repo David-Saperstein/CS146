@@ -18,6 +18,7 @@ if income > 191,950
 //make an if statement for if single and if married
 //copy and paste single to married and just change the money numbers
 //return taxAmount
+//output taxAmount next to calculations on tax.html
 
 taxCalc(income,stats)
 {

@@ -1,4 +1,6 @@
 # List of things that need to be done
-- CSS for tablet and moblie
 - Add more content to front page
+- Any CSS modifications that need to be made
+- Polish the site
+- Implement javascript
 
