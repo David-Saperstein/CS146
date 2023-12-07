@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/tablet.css" media="screen and (min-width: 481px)">
     <link rel="stylesheet" href="./styles/desktop.css" media="screen and (min-width: 769px)">
     <script src="./calculations/main.js" defer></script>
+    <script src="./calculations/mortgage.js" defer></script>
 </head>
 </head>
 <body>
@@ -36,16 +37,16 @@
             </div>
             <div class="input-wrapper">
                 <label for="lo">Loan Term:</label>
-                <input type="Location" id="lo" name="lo">
+                <input type="number" id="lo" name="lo">
             </div>
             <div class="input-wrapper">
                 <label for="ir">Interest Rate:</label>
-                <input type="text" id="ir" name="ir">
+                <input type="number" id="ir" name="ir" step="0.01">
             </div>
             <div class="submit"><input type="submit" value="Submit"></div>
           </form>
           <div>
-            <h2 class = "results">Calculation: </h2>
+            <h2 class = "results">Calculation: <span id="result"></span></h2>
         </div>
 
         <p class="tiny">*This is a basic mortgage calculator given that the loan term is fixed</p>
