@@ -11,4 +11,4 @@ const rate = urlParams.get("ir");
 document.getElementById("amount").value = amount;
 document.getElementById("lo").value = term;
 document.getElementById("ir").value = rate;
-document.getElementById("result").innerHTML = mortgageCalc(amount, term, rate) + "/month";
+document.getElementById("result").innerHTML = mortgageCalc(amount, term, rate);
