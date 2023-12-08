@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/tablet.css" media="screen and (min-width: 481px)">
     <link rel="stylesheet" href="./styles/desktop.css" media="screen and (min-width: 769px)">
     <script src="./calculations/main.js" defer></script>
+    <script src="./calculations/tax.js" defer></script>
 </head>
 <body>
     <nav>
@@ -27,23 +28,23 @@
         <form>
             <div class="input-wrapper">
                 <label for="stat">Tax Filing Status:</label>
-                <select name="filing status" id="status">
-                    <option value="Single">Single</option>
-                    <option value="Married">Married (filing jointly)</option>
+                <select name="filing-status" id="status">
+                    <option value="1">Single</option>
+                    <option value="2">Married (filing jointly)</option>
                 </select>
             </div>
             <div class="input-wrapper">
                 <label for="income">Income:</label>
-                <input type="text" id="income" name="income">
+                <input type="number" id="income" name="income">
             </div>
-            <div class="input-wrapper">
+            <!-- <div class="input-wrapper">
                 <label for="loc">Location:</label>
                 <input type="Location" id="loc" name="loc">
-            </div>
+            </div> -->
             <div class="submit"><input type="submit" value="Submit"></div>
         </form>
         <div>
-            <h2 class = "results">Calculation: </h2>
+            <h2 class = "results">Calculation: $<span id="result"></span></h2>
         </div>
 
         <p class="tiny">*This is a basic tax caculator. Calculations are based off the assumptions that the users has no dependants or disabilities that would effect their taxes</p>
