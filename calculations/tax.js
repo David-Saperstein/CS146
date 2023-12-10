@@ -1,6 +1,7 @@
 function taxCalc(income, mult, state){
     let rate;
-    let state_tax = {
+    let state_rates = {
+        'blank' : 0.00,
         'AK': 0.00,
         'FL' : 0.00,
         'NV' : 0.00,
@@ -51,9 +52,14 @@ function taxCalc(income, mult, state){
         'HI' : 0.0679,
         'OR' : 0.0805
     }
-
-    let state_cut = income * state_tax[state];
-    console.log(state_cut);
+    console.log(state);
+    if(state == null) {
+        state_tax = 0.00;
+    }
+    else {
+        state_tax = state_rates[state]
+    }
+    let state_cut = income * state_tax;
     switch(true){
         case (income > 243725 * mult):
             rate = 35;
